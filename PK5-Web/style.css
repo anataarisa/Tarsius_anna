@@ -1,0 +1,221 @@
+@font-face{
+	font-family: "Web-Raleway";
+	src:url('../fonts/Raleway-Regular.ect');
+	src:url('../fonts/Raleway-Regular.ect#iefix') format("embedded-opentype"),
+	url('../fonts/Raleway-Regular.woff') format("woff"),
+	url('../fonts/Raleway-Regular.ttf') format("truetype"),
+	url('../fonts/Raleway-Regular.svg#web') format("svg");
+	font-style:normal;font-weight:normal;
+}
+
+@font-face{
+	font-family: "Web-Raleway-Bold";
+	src:url('../fonts/Raleway-Bold.ect');
+	src:url('../fonts/Raleway-Bold.ect#iefix') format("embedded-opentype"),
+	url('../fonts/Raleway-Bold.woff') format("woff"),
+	url('../fonts/Raleway-Bold.ttf') format("truetype"),
+	url('../fonts/Raleway-Bold.svg#web') format("svg");
+	font-style:normal;font-weight:normal;
+}
+
+/* default configuration */
+body{
+	margin : 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#373737;
+
+}
+.clear
+{
+	float: none;
+	clear: both;
+}
+.center
+{
+	width: 961px;
+	margin : 0  auto;
+}
+
+/* header configuration */
+#header
+{
+	padding : 40px;
+}
+#header #logo
+{
+	float :left;
+}
+#header .navigation ul
+{
+	list-style-type : none;
+	padding : 0;
+	margin : 0; 
+}
+#header .navigation ul li
+{
+	display : inline-block;
+	font-size : 18px;
+	font-family : "Web-Arial-Bold"; 
+}
+#header .navigation ul li a
+{
+	display : inline-block;
+	padding : 25px;
+	text-transform : uppercase;
+	color : #373737;
+	text-decoration : none;
+}
+#header .navigation ul li a:hover
+{
+	color : #0b63cc;
+	-webkit-transition : 0.3s;
+	-moz-transition : 0.3s;
+	-ms-transition : 0.3s;
+	-o-transition : 0.3s;
+	transition : 0.3s; 
+}
+
+/*banner configuration*/
+
+#banner
+{
+	background: url("back.jpg") no-repeat center center;
+	-webkit-background-size : cover;
+	background-position : cover;
+	padding : 115px;
+	color : #FFFFFF;
+	text-align : center;
+}
+#banner h1
+{
+	font-size : 44px;
+	font-family : "Web-Arial-Bold";
+	text-transform : uppercase;
+	font-weight : normal;
+}
+#banner h2
+{
+	font-size : 26px;
+	font-family : "Web-Arial";
+	font-weight : normal;
+	margin bottom : 28px;
+}
+.btn-primary
+{
+	border:solid 3px #FFFFFF;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	padding : 10px;
+	display: inline-block;
+}
+
+/*for service our configuration*/
+#our-services
+{
+	padding: 25px 0;
+	font-family: "Web-Arial";
+
+}
+#our-services .tittle-content
+{
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#our-services .tittle-content span
+{
+	font-family: "Web-Arial-Bold";
+}
+.content-list .list-services
+{
+	font-family: "Web-Arial-Bold";
+	background: #0a63d2;
+	padding: 15px;
+	float: left;
+	width: 45%;
+	color: #FFFFFF;
+}
+.content-list .list-services.last
+{
+	float: right;
+}
+
+
+.content-list .list-services.last h2
+{
+	text-transform: uppercase;
+	font-family: "Web-Arial-Bold";
+	font-size: 26px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.content-list .list-services .text
+{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+.content-list .list-services .button a
+{
+	display: inline-block;
+	padding: 10px 15px;
+	border: solid 2px #FFFFFF;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: "Web-Arial";
+}
+#notification.subscribe
+{
+background:#d7d7d7 ;
+padding: 25px 0;
+margin-top : 30px;
+}
+
+#notification-subscribe h2
+{
+	font-family: "Web-Arial-Bold";
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+#notification-subscribe h3
+{
+	margin-top: 0;
+	font-size: 24px;
+	font-family: "Web-Arial";
+	font-weight: normal;
+}
+#notification-subscribe .left-content
+{
+	float: left;
+}
+#notification-subscribe .right-content
+{
+	float: right;
+	padding-top: 35px;
+}
+#notification-subscribe .large-content
+{
+	display: inline-block;
+	background: #0a63d2;
+	font-family: "Web-Arial-Bold";
+	font-size: 24px;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/* this for footer configuration */
+#footer
+{
+	background: #373737; 
+	padding: 46px;
+	text-align: center ;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
